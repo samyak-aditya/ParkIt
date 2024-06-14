@@ -1,0 +1,198 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+.main-containerdb{
+    width:  99.9vw;
+    height: 99.8vh;
+    display: flex;
+    border: 2px solid black;
+}
+.left-containerdb{
+    width: 60vh;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+}
+.right-containerdb {
+    width: 85%;
+    height: 94%;
+    display: flex;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputboxdb {
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 0px;
+    outline: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    font-weight: bolder;
+}
+
+.submitdb{
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: black; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.left-boxdb{
+    width: 350px;
+    height: 500px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    margin: 20px;
+}
+
+.image-containerdb {
+    width: 100%;
+    height: 50%;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.image-containerdb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.dashboardnav{
+    width: 99.8vw;
+    height: 91px;
+    border: 2px solid;
+    border-color: #000000;
+    background-color: #C099FF;
+    border-top: 0;
+    position: absolute;
+}
+.brandcont{
+    width: fit-content;
+    height: fit-content;
+    top: 25px;
+    left: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+.brandcont span{
+    font-weight: 800;
+    font-size: 33.19px;
+    line-height: 38.88px;
+}
+.self{
+    width: fit-content;
+    height: fit-content;
+    top: -31px;
+    left: 286px;
+    position: relative;
+}
+.self span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.self1{
+    width: fit-content;
+    height: fit-content;
+    top: -56px;
+    left: 436px;
+    position: relative;
+}
+.leftdb{
+    width: 40vw;
+    height: 99.9vh;
+    background-color: #fef5e5;
+    border: 2px solid black;
+}
+.leftcard{
+    border: 2px solid;
+    border-color:#151d20 ;
+    top:306px;
+    width: 352px;
+    height: 412px;
+    left: 160px;
+    position: relative;
+}
+.leftcardimag{
+    width: 350px;
+    height: 218px;
+    border-bottom: 2px solid;
+    border-color:#151d20 ;
+}
+.leftcardimag img{
+    width: 349px;
+    height: 217px;
+}
+.leftcard h5{
+    position: relative;
+    top:15px;
+    left: 12px;
+}
+.searchleft{
+    width: 317px;
+    height: 46.56px;
+    position: relative;
+    top:25px;
+    left: 12px;  
+}
+#leftse{
+    width: 317px;
+    height: 46.56px;
+    background-color: #fef5e5;
+    border: 2px solid;
+    border-color: #151d20;
+    border-radius: none;
+    text-align:left;
+    padding: 6px;
+}
+.leftlast{
+    width: 317px;
+    height: 46.56px;
+    position: relative;
+    top:35px;
+    left: 12px; 
+}
+#park{
+    width: 317px;
+    height: 46.56px;
+    background-color:#151d20;
+    text-align: center;
+    color: #FEF5E5;
+}
+
+.maps{
+    position: relative;
+    top:60px;
+    left: -10px;
+}
+
+.self2{
+    position: relative;
+    left:1700px;
+    top:-80px;
+    font-size: 20px;
+
+}

@@ -1,0 +1,55 @@
+
+.mission-container{
+    background-image: linear-gradient(0deg, #A56DFF, #F1EEE9);
+    height: 96vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    text-align: center;
+   
+
+}
+.left1{
+    height: 96vh;
+    width: 100vh;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    
+    border-right:solid 2px black ;
+    
+    
+}
+
+
+
+.right1{
+    display: flex ;
+    height: 96vh;
+    width: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+
+    
+}
+
+.left-text{
+
+    text-align: center;
+    max-width: 100%;
+
+}
+
+
+

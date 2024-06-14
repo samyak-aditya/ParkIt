@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    margin-top:.2px;
+    width: 98.4vw;
+    height: 97.9vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left-container{
+    width: 100vh;
+    height:  97.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-right: 0cap;
+    background-color: #C099FF;
+    font-family: 'Roboto', sans-serif;
+}
+#companyname{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 130px;
+    color: #000;
+}
+#compar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22.5px;
+    color: #000;
+}
+.blockquote-footer {
+    margin-top: -3.8rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    color: #000;
+}
+.right-container{
+    width: 98vh;
+    height:97.9vh;
+    border-style: solid;
+    border-color: black;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head{
+    margin-bottom:4rem ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 47.8px;
+    color: #000;
+    margin-left: 15%;
+
+}
+
+.inputbox{
+    margin-bottom: 20px;
+    width: 592px;
+    height: 66px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    height: 50px;
+    font-size: 19.2px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    top:279px;
+    left:796px;
+}
+
+.submit{
+    width: 592px;
+    border-color: #151D20;
+    height: 59px;
+    background-color: black;
+    color: beige;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px, 233px, 10px, 233px;
+}
+#lasttext{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13.33px;
+    color: #000;
+    line-height: 15.62px;
+    margin-left: 36.5%;
+}

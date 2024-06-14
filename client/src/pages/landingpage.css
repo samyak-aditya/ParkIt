@@ -1,0 +1,43 @@
+.landing-container{
+    background-image: linear-gradient(0deg, #A56DFF, #F1EEE9);
+    height: 96vh;
+    display: grid;
+    grid-template-rows:auto 1px auto;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+
+}
+.text{
+    position: relative;
+    top: 120px;
+    
+}
+
+.arrow{
+    width: 100px;
+    height: 100px;
+}
+
+.arrow-container{
+
+    
+}
+
+.get-started{
+
+    
+    height: 50px;
+    width: 300px;
+    position: relative;
+    
+    box-shadow: 7px 8px;
+    top: -150px;
+}
+
+.start-free{
+    font-size: 30px;
+}
