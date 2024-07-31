@@ -3,7 +3,7 @@ import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import { useEffect, useState } from "react";
-import { Icon, divIcon, point, LatLng, L } from "leaflet"; // Import LatLng from leaflet
+import { Icon, divIcon, point } from "leaflet"; // Import LatLng from leaflet
 import 'leaflet-routing-machine';
 
 

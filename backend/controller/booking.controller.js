@@ -1,7 +1,7 @@
 import User from "../model/User.js";
-import bcrypt from "bcrypt";
+
 import dontenv from "dotenv";
-import jwt from "jsonwebtoken";
+
 dontenv.config();
 
 export const createValetBook = async (req, res) => {
