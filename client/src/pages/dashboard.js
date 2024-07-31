@@ -1,8 +1,7 @@
 import React from "react";
 import "./dashboard.css";
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import MarkerClusterGroup from "react-leaflet-cluster";
+
 import { Icon, divIcon, point } from "leaflet";
 
 import "../icons/Gemini_Generated_Image_y4t1jly4t1jly4t1.jpg";
